@@ -69,6 +69,11 @@ namespace SynchronizingResourceAccess
             {
                 Monitor.Exit(flag);
             }
+            
+            
+            
+            
+            // Fourth Way is used  when we want to share multiple resources between threads and we use an atomic type instead of object flag and uses interlocked
         }
         
         static void MethodB()
@@ -118,6 +123,9 @@ namespace SynchronizingResourceAccess
             
             
             
+            
+            // Fourth Way is used  when we want to share multiple resources between threads and we use an atomic type instead of object flag and uses interlocked
+
             
         }
     }
