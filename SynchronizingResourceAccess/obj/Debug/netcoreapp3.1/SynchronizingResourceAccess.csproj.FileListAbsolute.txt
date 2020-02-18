@@ -1,0 +1,11 @@
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\bin\Debug\netcoreapp3.1\SynchronizingResourceAccess.exe
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\bin\Debug\netcoreapp3.1\SynchronizingResourceAccess.deps.json
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\bin\Debug\netcoreapp3.1\SynchronizingResourceAccess.runtimeconfig.json
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\bin\Debug\netcoreapp3.1\SynchronizingResourceAccess.runtimeconfig.dev.json
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\bin\Debug\netcoreapp3.1\SynchronizingResourceAccess.dll
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\bin\Debug\netcoreapp3.1\SynchronizingResourceAccess.pdb
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\obj\Debug\netcoreapp3.1\SynchronizingResourceAccess.csprojAssemblyReference.cache
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\obj\Debug\netcoreapp3.1\SynchronizingResourceAccess.AssemblyInfoInputs.cache
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\obj\Debug\netcoreapp3.1\SynchronizingResourceAccess.AssemblyInfo.cs
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\obj\Debug\netcoreapp3.1\SynchronizingResourceAccess.dll
+C:\Users\Alekhandr0\Desktop\dot-net-core\chapter13\SynchronizingResourceAccess\SynchronizingResourceAccess\obj\Debug\netcoreapp3.1\SynchronizingResourceAccess.pdb
