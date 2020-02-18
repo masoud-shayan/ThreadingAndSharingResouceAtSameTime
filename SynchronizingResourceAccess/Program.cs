@@ -19,17 +19,12 @@ namespace SynchronizingResourceAccess
             Console.WriteLine($"{watch.ElapsedMilliseconds:#,##0} elapsed milliseconds.");
             
             
-            
-            
-            
-            // Second Step with Locking the resource(Message) so the threads has access to it one after another 
-
         }
         
         
         static Random r = new Random();
         static string Message =""; // a shared resource
-        static object conch = new object();  // the flag to lock the resource at the second step
+        static object flag = new object();  // the flag to lock the resource at the second step
 
         
         static void MethodA()
@@ -46,7 +41,7 @@ namespace SynchronizingResourceAccess
             
             
             // Second Way with Locking the resource(Message) so the threads has access to it one after another but it may cause a deadlock 
-            // lock (conch)
+            // lock (flag)
             // {
             //     for (int i = 0; i < 5; i++)
             //     {
@@ -61,7 +56,7 @@ namespace SynchronizingResourceAccess
             // Third Way with Monitor(compiled from Lock after compiling process actually1) to avoid from deadlock and make sure the resource will be release after a few seconds(timeout)
             try
             {
-                Monitor.TryEnter(conch , TimeSpan.FromSeconds(15));
+                Monitor.TryEnter(flag , TimeSpan.FromSeconds(15));
                 
                 for (int i = 0; i < 5; i++)
                 {
@@ -72,7 +67,7 @@ namespace SynchronizingResourceAccess
             }
             finally
             {
-                Monitor.Exit(conch);
+                Monitor.Exit(flag);
             }
         }
         
@@ -91,7 +86,7 @@ namespace SynchronizingResourceAccess
             
             
             // Second Way with Locking the resource(Message) so the threads has access to it one after another but it may cause a deadlock 
-            // lock (conch)
+            // lock (flag)
             // {
             //     for (int i = 0; i < 5; i++)
             //     {
@@ -107,7 +102,7 @@ namespace SynchronizingResourceAccess
             // Third Way with Monitor(compiled from Lock  after compiling process actually!) to avoid from deadlock and make sure the resource will be release after a few seconds(timeout)
             try
             {
-                Monitor.TryEnter(conch , TimeSpan.FromSeconds(15));
+                Monitor.TryEnter(flag , TimeSpan.FromSeconds(15));
                 
                 for (int i = 0; i < 5; i++)
                 {
@@ -118,7 +113,7 @@ namespace SynchronizingResourceAccess
             }
             finally
             {
-                Monitor.Exit(conch);
+                Monitor.Exit(flag);
             }
             
             
